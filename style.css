@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+}
+
+section {
+  background-color: yellow;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+.item {
+  background-color: grey;
+  border: solid black 4px;
+  float: left;
+  position: relative;
+}
+
+h2 {
+  border: solid black 4px;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+}
+
+p {
+  clear: right;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#chicken-text {
+  background-color: pink;
+}
+
+#beef-text {
+  background-color: red;
+  color: white;
+}
+
+#sushi-text {
+  background-color: yellow;
+}
+
+/* Desktop Media Start*/
+@media (min-width: 992px) {
+  .item {
+    width: 30%;
+    height: 175px;
+    margin: 15px;
+  }
+
+
+h2 {
+  top: -24px;
+  right: -4px;
+}
+  #sushi{
+    float:right;
+  }
+  
+  #beef{
+    margin-
+  }
+}
+
+/* Desktop Media End*/
+
+/* Tablet Media Start*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .item {
+    margin: 10px;
+  }
+  
+  h2{
+    top: -24px;
+    right: -4px
+  }
+
+  #chicken {
+    width: 47%;
+    height: 175px;
+  }
+
+  #beef {
+    width: 47%;
+    height: 175px;
+    float: right
+  }
+  
+  p{
+    
+  }
+}
+/* Tablet Media End*/
+
+/* Mobile Media Start*/
+@media (max-width: 767px){
+  
+  .item{
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 3px
+  }
+  
+  h2{
+    top: -23px;
+    right: -4px;
+  }
+}
